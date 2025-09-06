@@ -5,7 +5,10 @@ This workspace demonstrates how to develop and organize Python programs for the 
 ## Features
 
 - **Slot-based Program Importing:**  
-  Use the `importslot` function in [`mission5.py`](mission5.py) to dynamically import and execute programs from different slots on the SPIKE Prime hub as Python modules. This allows you to modularize your code and call slot programs directly.
+  Use the `importslot` function in [`master.py`](master.py) to dynamically import and execute programs from different slots on the SPIKE Prime hub as Python modules. This allows you to modularize your code and call slot programs directly.
+
+- **Master program:**
+  importing all the slots into a list that can be iterated over by pressing the left button to start the next program.  Should modify the program to be able to run the program again or skip forwards or backward in the list.  other modifications to the program would be to show the slot that is being run. on the light matrix
 
 - **Stub Files for IntelliSense:**  
   For better code completion and type checking, set the Python analysis extra paths to point to the stub files from [lego-spike-python-v3-docs](https://github.com/jvolkening/lego-spike-python-v3-docs.git).
