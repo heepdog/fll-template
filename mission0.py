@@ -21,7 +21,11 @@ async def runto():
     await runloop.sleep_ms(5000) 
     print("next runto")
 
-async def main():
+def main():
+    runloop.run(maina())
+    print('done with main')
+
+async def maina():
    # write your code here
    await light_matrix.write("Hi!")
    runloop.run(sleepfor(),runto(),listenforbroadcast())
@@ -44,5 +48,6 @@ async def listenforbroadcast():
 
 
 if __name__ == "__main__":
-    runloop.run(main())
-    print("exit code")
+    main()
+    # runloop.run(main())
+    # print("exit code")
