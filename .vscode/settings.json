@@ -1,5 +1,7 @@
 {
     "python.analysis.extraPaths": [
-        "C:\\Users\\Chris\\python\\lego-spike-python-v3-docs\\stubs"
-    ]
+        "C:\\Users\\Chris\\python\\lego-spike-python-v3-docs\\stubs",
+        ".\\spike_stubs\\stubs"
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }

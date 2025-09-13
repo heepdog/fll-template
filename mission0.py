@@ -30,7 +30,7 @@ async def maina():
    await light_matrix.write("Hi!")
    runloop.run(sleepfor(),runto(),listenforbroadcast())
    print('done with asyncs')
-   runto()
+   future = runto()
 
 
 async def listenforbroadcast():

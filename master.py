@@ -3,7 +3,7 @@
 from hub import button
 import asyncio
 
-mission_list = ['02', '19']
+mission_list = ['02', '19', '15']
 mission_imports = {}
 
 def importslot(slot_number: str):
