@@ -1,0 +1,3 @@
+[submodule "spike_stubs"]
+	path = spike_stubs
+	url = https://github.com/jvolkening/lego-spike-python-v3-docs.git
